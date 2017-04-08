@@ -1,0 +1,13 @@
+{% extends "layout.html" %}
+{% block title %}Stock Today{% endblock %}
+{% block main %}
+<h1>Stock Today</h1>
+<br>
+<form id="qo" >
+	<input type="text", name="c", placeholder='SYMBOL' id="symbol" autocomplete="off"><br>
+<br>
+<button type="submit" id="but" placeholder="GET">GET</button>
+</form>
+
+<div id ="te"></div>
+{% endblock %}
